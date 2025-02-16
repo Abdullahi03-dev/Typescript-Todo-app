@@ -1,0 +1,25 @@
+body{
+  padding-top: 3rem;
+  background-color: beige;
+}
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+.controllers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result{
+  margin-top: 3em;
+  padding: 5rem 0;
+  width: 450px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.showtask{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -12,7 +12,7 @@ const TodoPage:FC = ()=>{
   const [deadline,setDeadline]=useState<number>(0)
   const [todoList,setTodoList]=useState<ITask[]>(()=>{const saved=localStorage.getItem('todoItem')
   return saved?JSON.parse(saved):[]})
-  const [savedTodo,setSaveTodo]=useState<ITask[]>([])
+ 
 
 useEffect(()=>{
   localStorage.setItem('todoItem',JSON.stringify(todoList))

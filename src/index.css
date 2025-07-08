@@ -1,4 +1,4 @@
-body{
+/* body{
   padding-top: 3rem;
   background-color: beige;
 }
@@ -22,4 +22,5 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  background-color:#00000078;
+} */

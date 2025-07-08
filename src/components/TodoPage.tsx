@@ -16,7 +16,7 @@ const TodoPage:FC = ()=>{
 
 useEffect(()=>{
   localStorage.setItem('todoItem',JSON.stringify(todoList))
-  setSaveTodo(todoList)
+ 
   setTaskss(todoList)
   },[todoList])
 

@@ -4,8 +4,6 @@ import TodoShow from './components/todotask'
 import TodoPage from "./components/TodoPage"
 
 
-import React from 'react'
-
 const App = () => {
   return (
     <>
